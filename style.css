@@ -1,0 +1,58 @@
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: sans-serif;
+}
+.header, .footer {
+  background-color: #222;
+  padding: 10px;
+  text-align: center; /* Center the elements in these containers*/
+}
+.header input[type="text"]{
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 200px; /*set width as needed */
+}
+.header button{
+  background-color:#007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+#downloadList{
+    display: flex;
+    flex-direction: column;
+}
+.downloadItem{
+  background-color: #333;
+  margin: 5px;
+  padding: 10px;
+  display:flex;
+  justify-content: space-between; /*align start and end items*/
+}
+.downloadItem p{ /*add specific styling for paragraph in download items*/
+    margin: 0; /*Removes default top and bottom margin from p tag*/
+    font-weight:bold; /*optional styling*/
+}
+.downloadItem button{
+  background-color: #555;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.footer {
+    margin-top: 20px; /*add some spacing above footer*/
+    padding-bottom: 20px; /* add some spacing below footer elements */
+}
+.footer button{
+    background-color:#dc3545;
+    color:white;
+    margin: 5px;
+    padding: 5px 10px;
+    border:none;
+    cursor:pointer;
+}
+/* Add more styles as needed for responsiveness and visual appeal*/

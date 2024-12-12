@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Download Manager</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Download Manager</h1>
+    <input type="text" id="downloadURL" placeholder="Enter download URL">
+    <button id="addDownload">Add</button>
+  </div>
+  <div id="downloadList">
+    </div>
+  <div class="footer">
+    <div id="downloadSpeed">Download Speed: <span id="speed">0</span> MB/s</div>
+    <div id="peakSpeed">Peak: <span id="peak">0</span> MB/s</div>
+    <button id="startAll">Start All</button>
+    <button id="pauseAll">Pause All</button>
+    <button id="clearCompleted">Clear Completed</button>  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
